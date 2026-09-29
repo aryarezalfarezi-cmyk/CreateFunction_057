@@ -22,3 +22,5 @@ luas_lingkaran = lambda r: math.pi * r**2
 
 jari_jari = 7
 print("Luas lingkaran =", round(luas_lingkaran(jari_jari), 2))
+
+lambda r: math.pi * r**2
