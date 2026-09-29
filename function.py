@@ -5,3 +5,5 @@ def konversi_suhu(suhu, satuan):
         elif satuan == "F":
         celsius = (suhu - 32) * 5/9
         return celsius
+         else:
+        return "Satuan tidak valid"
