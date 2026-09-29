@@ -13,3 +13,12 @@ print("77 F =", konversi_suhu(77, "F"), "C")
 
 import math
 luas_lingkaran = lambda r: math.pi * r**2
+jari_jari = 7
+print("Luas lingkaran =", luas_lingkaran(jari_jari))
+
+import math
+
+luas_lingkaran = lambda r: math.pi * r**2
+
+jari_jari = 7
+print("Luas lingkaran =", round(luas_lingkaran(jari_jari), 2))
