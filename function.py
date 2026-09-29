@@ -1,13 +1,16 @@
 def konversi_suhu(suhu, satuan):
-     if satuan == "C":
+    if satuan == "C":
         fahrenheit = (suhu * 9/5) + 32
         return fahrenheit
-        elif satuan == "F":
+    elif satuan == "F":
         celsius = (suhu - 32) * 5/9
         return celsius
-         else:
+    else:
         return "Satuan tidak valid"
 
+
+print("25 C =", konversi_suhu(25, "C"), "F")
+print("77 F =", konversi_suhu(77, "F"), "C")
 print("25 C =", konversi_suhu(25, "C"), "F")
 print("77 F =", konversi_suhu(77, "F"), "C")
 
