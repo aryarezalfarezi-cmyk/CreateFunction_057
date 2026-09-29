@@ -7,3 +7,9 @@ def konversi_suhu(suhu, satuan):
         return celsius
          else:
         return "Satuan tidak valid"
+
+print("25 C =", konversi_suhu(25, "C"), "F")
+print("77 F =", konversi_suhu(77, "F"), "C")
+
+import math
+luas_lingkaran = lambda r: math.pi * r**2
